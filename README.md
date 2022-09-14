@@ -18,7 +18,7 @@ sudo apt-get install libqmi-glib5 libqmi-proxy libqmi-utils curl libuuid-tiny-pe
 
 Step 2: Download and unpack modem firmware from the "EM/MC74xx Approved FW Packages" page: Download the 7455 Generic Linux Binaries as pictured here
 
-
+https://source.sierrawireless.com/-/media/support_downloads/airprime/74xx/7455_04282022/swi9x30c_02,-d-,38,-d-,00,-d-,00_generic_002,-d-,082_000.ashx
 
 Open a terminal and unzip (replace with the version that you downloaded):
 
