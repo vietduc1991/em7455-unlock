@@ -53,15 +53,17 @@ sudo minicom -D /dev/ttyUSB2
 
 #verify the firmware version that you flashed took
 
-AT!IMPREF?
-
-# set vendor ID to stock
 
 AT!ENTERCND="A710"
+
 AT!USBPID=9071,9070
+
 AT!USBVID=1199
+
 AT!USBPRODUCT="EM7455"
+
 AT!PRIID="9904802","001.001","Generic-Laptop"
+
 AT!RESET
 
 Step 11: Quit minicom
