@@ -10,8 +10,11 @@ This documentation applies to Linux Mint 20.2 & 21 and confirmed to work when ru
 Step 1: Install the software needed to update modem firmware
 
 sudo add-apt-repository universe
+
 sudo apt update
+
 sudo apt-get install libqmi-glib5 libqmi-proxy libqmi-utils curl libuuid-tiny-perl libipc-shareable-perl minicom -y
+
 
 Step 2: Download and unpack modem firmware from the "EM/MC74xx Approved FW Packages" page: Download the 7455 Generic Linux Binaries as pictured here
 
